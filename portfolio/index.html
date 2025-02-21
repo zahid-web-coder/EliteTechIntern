@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahid - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 1, 39);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(21, 21, 51);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(121, 92, 136);
+            font-size: 1.03rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(130, 95, 163);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(130, 95, 163);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 95px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 75px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: gray;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(13, 0, 24);
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Zahid's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Zahid</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Linkdin Profile</button>
+                <button class="btn">Visit GitHub</button>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have learnt so far</span>
+            <h1>Knowledge About</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img src="h.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        I have strong knowledge of HTML, creating well-structured, semantic, and accessible web pages.
+                        You understand tags, attributes, forms, tables, multimedia, and SEO best practices, ensuring
+                        responsive and user-friendly designs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="ci.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        I have a solid understanding of CSS, enabling you to style and layout web pages effectively. You
+                        are proficient in selectors, flexbox, grid, animations, media queries, and responsive design for
+                        visually appealing interfaces.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="ji.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="vertical-desc">
+                        I have strong knowledge of JavaScript, enabling you to create dynamic and interactive web
+                        experiences. You understand DOM manipulation, events, ES6+, asynchronous programming, APIs, and
+                        frameworks like React or Vue for modern development.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="p.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                    <div class="vertical-desc">
+                        I have knowledge of Python, enabling you to write clean and efficient code. You understand core
+                        concepts, data structures, OOP, and frameworks like Django or Flask for web development,
+                        automation, and backend scripting.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="n.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Node.js
+                    </div>
+                    <div class="vertical-desc">
+                        I have a solid understanding of Node.js, allowing you to build scalable and efficient backend
+                        applications. You are proficient in asynchronous programming, Express.js, RESTful APIs, database
+                        integration (MongoDB, MySQL), and handling server-side logic.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="r.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        REACT
+                    </div>
+                    <div class="vertical-desc">
+                        I have a strong understanding of React, enabling you to build dynamic and efficient frontend
+                        applications. You are proficient in components, props, state management, hooks, React Router,
+                        and integrating APIs for interactive user experiences.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="m.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        MongoDB
+                    </div>
+                    <div class="vertical-desc">
+                        I have a solid understanding of MongoDB, enabling you to design and manage NoSQL databases. You
+                        are proficient in CRUD operations, schema design, aggregation, indexing, and integrating MongoDB
+                        with Node.js using Mongoose for efficient data handling.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Zahid's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+                <li>Email</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; zahidsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Web Developer', 'Web Designer', 'Student Ambassador.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
